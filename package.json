@@ -1,24 +1,25 @@
 {
   "name": "courses",
   "version": "1.0.0",
-  "description": "A video tutorial platform for beginner software developers",
+  "description": "A test with Nextjs/Auth0/Stripe/Postgres Stack influenced by Jon Meyers",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "seed":"node prisma/seed.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dijonmusters/courses.git"
+    "url": "git+https://github.com/morshedgit/courses.git"
   },
-  "author": "Jon Meyers",
+  "author": "Morshed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dijonmusters/courses/issues"
+    "url": "https://github.com/morshedgit/courses/issues"
   },
-  "homepage": "https://github.com/dijonmusters/courses#readme",
+  "homepage": "https://github.com/morshedgit/courses#readme",
   "dependencies": {
     "@auth0/nextjs-auth0": "^1.2.0",
     "@prisma/client": "^2.18.0",
@@ -34,7 +35,7 @@
   "devDependencies": {
     "autoprefixer": "^10.2.4",
     "postcss": "^8.2.6",
-    "prisma": "^2.18.0",
+    "prisma": "^3.12.0",
     "tailwindcss": "^2.0.3"
   }
 }
